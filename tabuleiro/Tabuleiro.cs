@@ -4,18 +4,24 @@
     {
         public int linhas { get; set; }
         public int colunas { get; set; }
-        private Pecas[,] pecas;
+        private Peca[,] pecas;
 
         public Tabuleiro(int linhas, int colunas)
         {
             this.linhas = linhas;
             this.colunas = colunas;
-            pecas = new Pecas[linhas, colunas];
+            pecas = new Peca[linhas, colunas];
         }
 
-        public Pecas peca(int linhas, int colunas)
+        public Peca peca(int linhas, int colunas)
         {
             return pecas[linhas, colunas];
+        }
+
+        public void colocarPeca(Peca p, Posicao pos)
+        {
+            pecas[pos.linha, pos.coluna] = p;
+            p.posicao = pos;
         }
 
 
