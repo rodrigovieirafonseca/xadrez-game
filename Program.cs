@@ -10,6 +10,8 @@ namespace xadrez_console
         {
             try
             {
+                PosicaoXadrez pos = new PosicaoXadrez('c', 2);
+                Console.WriteLine(pos);
                 Tabuleiro tab = new Tabuleiro(8, 8);
 
                 tab.colocarPeca(new Torre(Cor.Preta, tab), new Posicao(9, 0));
