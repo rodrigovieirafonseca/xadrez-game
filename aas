@@ -1,0 +1,29 @@
+[33mcommit 91389a87a67fd3f44efd63178996802c6bf20f90[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Rodrigo Vieira <rodrigovf21021994@gmail.com>
+Date:   Wed Feb 9 16:06:21 2022 -0300
+
+    Colocando pecas no tabuleiro (rei,torre)
+
+[33mcommit e6afb93d4aed55be090179c90d783fe54e3237aa[m
+Author: Rodrigo Vieira <rodrigovf21021994@gmail.com>
+Date:   Tue Feb 8 16:16:11 2022 -0300
+
+    Comecando a implementar o metodo que imprime o tabuleiro
+
+[33mcommit 86ec2549e2f20391f14dd675b9404c9f79274007[m
+Author: Rodrigo Vieira <rodrigovf21021994@gmail.com>
+Date:   Tue Feb 8 15:47:21 2022 -0300
+
+    Adicionando classe tabuleiro, peca, posicao e cor
+
+[33mcommit ef7938dc42438f5e40c959d315673563efe43814[m
+Author: Rodrigo Vieira <rodrigovf21021994@gmail.com>
+Date:   Tue Feb 8 15:28:16 2022 -0300
+
+    Adicionado classe posição
+
+[33mcommit b85525e25060863c21de3a31f8b2d6eb6401cc9e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Rodrigo Vieira <rodrigovf21021994@gmail.com>
+Date:   Tue Feb 8 09:57:58 2022 -0300
+
+    Projeto criado (Hello Word)
